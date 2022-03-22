@@ -1,6 +1,8 @@
 // *Variables*
 // Declare a variable, reassign it to your fav holiday, make sure it is in all caps, and print the value to the console
-
+let favHoliday;
+favHoliday = "xmas"
+console.log(favHoliday.toUpperCase())
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 
 // *Functions*
