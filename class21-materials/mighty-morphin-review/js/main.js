@@ -4,7 +4,10 @@ let favHoliday;
 favHoliday = "xmas"
 console.log(favHoliday.toUpperCase())
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
-
+let word = "bigHunk"
+alert(word[2])
+alert(word[3])
+alert(word[4])
 // *Functions*
 // Create a function that takes in 5 numbers. Subtract all five from 100. Alert the absolute value of the difference. Call the function.
 
