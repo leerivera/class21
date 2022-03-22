@@ -10,8 +10,11 @@ alert(word[3])
 alert(word[4])
 // *Functions*
 // Create a function that takes in 5 numbers. Subtract all five from 100. Alert the absolute value of the difference. Call the function.
-
-
+function subNums(n1, n2, n3, n4, n5){
+    sum = n1 - n2 -n3 - n4 -n5
+    console.log(Math.abs(sum))   
+}
+subNums(75, 45, 89, 68, 87)
 // Create a function that takes in 3 numbers. Console log lowest and highest values. Call the function.
 
 
