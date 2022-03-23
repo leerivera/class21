@@ -32,6 +32,15 @@ function headsOrTails(){
         return "tails"
     }
 }
+    console.log(headsOrTails())
 
 //*Loops*
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
+function filpFlip(n){
+    for(let i = 1; i<= n; i++){
+        let result = headsOrTails(
+            console.log(result)
+        )
+    }
+    filpFlip(10)
+}
